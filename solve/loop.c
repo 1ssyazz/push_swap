@@ -6,11 +6,11 @@
 /*   By: msukri <msukri@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 15:13:03 by msukri            #+#    #+#             */
-/*   Updated: 2022/04/19 16:00:39 by msukri           ###   ########.fr       */
+/*   Updated: 2022/04/25 16:18:18 by msukri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 int	loop_list(t_list *list, t_list *start, int set)
 {

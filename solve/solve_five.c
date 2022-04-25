@@ -6,11 +6,11 @@
 /*   By: msukri <msukri@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/14 19:58:45 by msukri            #+#    #+#             */
-/*   Updated: 2022/04/15 16:08:44 by msukri           ###   ########.fr       */
+/*   Updated: 2022/04/25 16:18:25 by msukri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 int	distance_to_top(t_list *a, int index)
 {

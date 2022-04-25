@@ -6,11 +6,11 @@
 /*   By: msukri <msukri@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 14:17:05 by msukri            #+#    #+#             */
-/*   Updated: 2022/04/25 14:19:44 by msukri           ###   ########.fr       */
+/*   Updated: 2022/04/25 16:15:57 by msukri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../../push_swap.h"
 
 void	ft_puterr(char *str)
 {

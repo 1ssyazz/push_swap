@@ -6,11 +6,11 @@
 /*   By: msukri <msukri@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 16:35:39 by msukri            #+#    #+#             */
-/*   Updated: 2022/04/19 21:49:08 by msukri           ###   ########.fr       */
+/*   Updated: 2022/04/25 16:18:36 by msukri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 void	rotation_in_a_b(t_stack *stack, int max_dist,
 	int *rotate_a, int *rotate_b)

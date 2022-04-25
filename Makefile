@@ -8,7 +8,8 @@ SRC_OPERATIONS	=	./operations/print/rotate_2.c \
 					./operations/operations.c \
 					./operations/rotator_swapper.c
 
-SRC_UTILS		=	./utils/if_!correct_order/correct_order.c \
+SRC_UTILS		=	./utils/clear/clear.c \
+					./utils/if_!correct_order/correct_order.c \
 					./utils/if_!correct_order/indexing_list.c \
 					./utils/if_!correct_order/list_sorting.c \
 					./utils/if_!correct_order/swap_list.c \
@@ -18,12 +19,11 @@ SRC_UTILS		=	./utils/if_!correct_order/correct_order.c \
 					./utils/sorter_utils.c \
 					./utils/utils.c
 
-SRC_MAIN		=	./clear.c \
-					./loop.c \
+SRC_MAIN		=	./solve/loop.c \
 					./push_swap.c \
-					./solve_five.c \
-					./solve.c \
-					./sorter.c
+					./solve/solve_five.c \
+					./solve/solve.c \
+					./solve/sorter.c
 
 OBJS_HANDLE_ARGS	=	${SRC_HANDLE_ARGS:.c=.o}
 OBJS_OPERATIONS		= 	${SRC_OPERATIONS:.c=.o}

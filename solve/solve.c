@@ -6,11 +6,11 @@
 /*   By: msukri <msukri@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 13:51:23 by msukri            #+#    #+#             */
-/*   Updated: 2022/04/24 17:22:19 by msukri           ###   ########.fr       */
+/*   Updated: 2022/04/25 16:18:32 by msukri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../push_swap.h"
 
 int	can_swap(t_list *list)
 {
